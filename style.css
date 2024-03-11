@@ -13,25 +13,41 @@ body {
     height: 100vh;
 }
 
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    gap: 70px;
-    padding: 10px;
-    
-}
+/*                SIDEBAR                 */
 
-.headings {
+
+.section {
     display: grid;
-    gap: 20px;
-}
-
-.selection {
-    display: flex;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
     color: white;
 }
+
+.icon {
+    filter: grayscale(100%) invert(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*                HEADER                  */
+
+
+
+
+
+
 
 .main-content{
     display: grid;
@@ -107,4 +123,14 @@ body {
 .side-icon {
     width: 32px;
     height: 32px;
+}
+
+.name-icon1 {
+    height: 50px;
+    width: 50px;
+}
+
+.name-icon2 {
+    height: 80px;
+    width: 80px;
 }
