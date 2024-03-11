@@ -9,7 +9,7 @@ body {
 
 .dashboard {
     display: grid;
-    grid-template: 1fr 4fr / 1fr 4fr;
+    grid-template: 1fr 4fr / 1fr 6fr;
     height: 100vh;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -110,6 +110,7 @@ body {
     display: grid;
     grid-template: 1fr 1fr / 4fr 1fr;
     background-color: #e2e8f0;
+    padding: 15px;
 }
 
 .projects {
@@ -119,9 +120,8 @@ body {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     gap: 20px;
-    padding: 10px;
 }
 
 .announcements {
@@ -135,10 +135,8 @@ body {
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
     background-color: white;
-    height: 200px;
+    height: 230px;
 }
 
 
