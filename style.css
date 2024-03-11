@@ -13,6 +13,26 @@ body {
     height: 100vh;
 }
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 10px;
+    
+}
+
+.headings {
+    display: grid;
+    gap: 20px;
+}
+
+.selection {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+
 .main-content{
     display: grid;
     grid-template: 1fr 1fr / 4fr 1fr;
@@ -78,4 +98,13 @@ body {
 
 .main-titles {
     padding-bottom: 15px;
+}
+
+.dash-icon {
+    height: 64px;
+    width: 64px;
+}
+.side-icon {
+    width: 32px;
+    height: 32px;
 }
