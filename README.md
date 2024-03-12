@@ -2,7 +2,8 @@
 
 ## Overview
 
-This project is an Admin Dashboard designed for managing various tasks and accessing important information efficiently. It utilizes a combination of CSS Grid and Flexbox to create a responsive and visually appealing layout.
+This project is an Admin Dashboard designed for managing various tasks and accessing important information efficiently. It utilizes a combination of CSS Grid for layout structure and Flexbox for certain elements to create a responsive and visually appealing layout.
+
 
 ## Features
 
