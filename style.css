@@ -15,6 +15,10 @@ body {
 
 /*                SIDEBAR                 */
 
+.sidebar {
+    background-color: rgb(47, 143, 180);
+    grid-row: 1 / -1;
+}
 
 .section {
     display: grid;
@@ -106,7 +110,7 @@ body {
 
 /*                MAIN CONTENT            */
 
-.main-content{
+.main-content {
     display: grid;
     grid-template: 1fr 1fr / 4fr 1fr;
     background-color: #e2e8f0;
@@ -137,29 +141,60 @@ body {
 .card {
     background-color: white;
     height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+    border-radius: 8px;
 }
 
-
-
-
-/* COLORS TO SEE THE LAYOUT*/
-.sidebar {
-    background-color: rgb(47, 143, 180);
-    grid-row: 1 / -1;
+.card-icons {
+    text-align: end;
 }
 
-.header {
+/*                ANNOUNCEMENTS - TRENDING            */
+
+.announcements,
+.trending {
+    padding-left: 20px;
+}
+
+.ann-last3,
+.trend-inside {
     background-color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+    height: 90%;
 }
 
-.main-content {
-    background-color: #e2e8f0;
+.main-titles {
+    margin-bottom: 15px;
 }
+
+.trend-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trend-lines {
+    display: flex;
+    gap: 20px;
+}
+
+.trend-pars {
+    align-self: center;
+}
+
+
+/* imgs size */
 
 .dash-icon {
     height: 64px;
     width: 64px;
 }
+
 .side-icon {
     width: 32px;
     height: 32px;
