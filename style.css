@@ -165,11 +165,14 @@ body {
     padding-left: 20px;
 }
 
+.trending {
+    margin-top: 50px;
+}
+
 .ann-last3,
 .trend-inside {
     background-color: white;
     border-radius: 8px;
-    margin-right: 20px;
     height: 90%;
 }
 
@@ -192,6 +195,25 @@ body {
 .trend-pars {
     align-self: center;
 }
+
+.ann-last3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.last3 {
+    align-self: center;
+}
+
+.last3-p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to three lines */
+    -webkit-box-orient: vertical;
+}
+
 
 
 /* imgs size */
