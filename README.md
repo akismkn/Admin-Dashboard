@@ -21,7 +21,3 @@ This project is an Admin Dashboard designed for managing various tasks and acces
 ## Credits
 
 This project utilizes icons from [Material Design Icons](https://pictogrammers.com/library/mdi/).
-
-## License
-
-This project is licensed under the [License Name]. See the [LICENSE](LICENSE) file for details.
