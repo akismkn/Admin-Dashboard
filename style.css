@@ -21,14 +21,20 @@ body {
 }
 
 .section {
+    color: white;
+    display: grid;
+    gap: 50px;
+    padding-left: 20px;
+}
+
+.top-sidebar, .mid-sidebar, .bottom-sidebar {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
-    justify-content: center;
-    padding: 10px;
-    gap: 10px;
-    color: white;
+    gap: 20px;
 }
+
+
 
 .icon {
     filter: grayscale(100%) invert(100%);
