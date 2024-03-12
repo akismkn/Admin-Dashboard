@@ -27,7 +27,9 @@ body {
     padding-left: 20px;
 }
 
-.top-sidebar, .mid-sidebar, .bottom-sidebar {
+.top-sidebar,
+.mid-sidebar,
+.bottom-sidebar {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
@@ -155,6 +157,10 @@ body {
     border-left: 10px solid rgb(47, 143, 180)
 }
 
+.card-title {
+    font-weight: bold;
+}
+
 .card-icons {
     text-align: end;
 }
@@ -211,7 +217,8 @@ body {
 .last3-p {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Limit to three lines */
+    -webkit-line-clamp: 3;
+    /* Limit to three lines */
     -webkit-box-orient: vertical;
 }
 
